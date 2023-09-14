@@ -65,7 +65,7 @@ const ManageExpenses = ({navigation}) => {
       expensesCtx.deleteExpense(expID);
       navigation.goBack();
     } catch (error) {
-      setError('Coulod not delete expense - Please try again later');
+      setError('Could not delete expense - Please try again later');
       setIsLoading(false);
     }
   }

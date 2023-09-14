@@ -11,8 +11,6 @@ import Colors from '../../constants/Colors';
 import Input from './Input';
 import CustomButton from '../../UI/CustomButton';
 import moment from 'moment';
-import DatePicker from 'react-native-date-picker';
-
 const screenHeight = Dimensions.get('window').height;
 
 const ExpenseForm = ({onCancel, onSubmit, editing, updatedValue}) => {

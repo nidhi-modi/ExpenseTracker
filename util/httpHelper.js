@@ -2,7 +2,7 @@
 import axios from 'axios';
 import moment from 'moment';
 
-const apiUrl = 'https://track-expenses-37552-default-rtdb.firebaseio.com';
+const apiUrl = 'https://expenses-68be8-default-rtdb.firebaseio.com/';
 
 export async function sendExpenses(expenseData) {
   const response = await axios.post(`${apiUrl}/expense.json`, expenseData);
